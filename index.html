@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media-Assignment</title>
+  </head>
+  <body>
+    <div id="#"></div>
+    <p>
+      I love to learn and build things, and I want to use coding and imagination
+      to create significant Projects.
+    </p>
+    <h2>Picture media:</h2>
+    <picture>
+      <!-- For mobile -->
+      <source media="(max-width: 570px)" srcset="assets/images/kay-kay.jpg" />
+      <!-- for tablets -->
+      <source media="(max-width: 800px)" srcset="assets/images/kay-kay.jpg" />
+      <!-- for laptop -->
+      <source media="(max-width: 1020px)" srcset="assets/images/kay-kay.jpg" />
+      <img src="./assets/images/kay-kay.jpg" alt="personal-image" width="200" />
+    </picture>
+
+    <h2>Audio media:</h2>
+    <audio controls>
+      <source src="./assets/audio/kene-voice.mp3" type="audio/mp3" />
+    </audio>
+
+    <h2>Video media</h2>
+    <video width="300" height="250" controls>
+      <source src="./assets/video/kene-video.mp4" type="video/mp4" /></video
+    ><br />
+
+    <a href="#">top</a>
+  </body>
+</html>
